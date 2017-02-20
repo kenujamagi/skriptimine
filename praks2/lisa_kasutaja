@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+#
+# kasutaja loomine ilma paroolita
+#
+kasutaja=$1
+useradd $kasutaja -m -s /bin/bash
+
+# l6pp
